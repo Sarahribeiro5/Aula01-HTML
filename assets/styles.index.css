@@ -1,0 +1,61 @@
+/* Reset CSS */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  } 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #030303;
+    font-family: "Poppins", sans-serif;
+    padding: 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #0a090a;
+}
+
+header {
+    background-color: #be3181;
+    backdrop-filter: blur(10px);
+    margin: 10px 0;
+    border-radius: 6px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center; /* horizontal */
+}
+
+p {
+    color: #040404;
+}
+
+#Principal {
+    display: flex;
+    height: 800px;
+    width: 100%;
+    border-radius: 6px;
+    justify-content: space-between;
+}
+
+main {
+    background-color: #70198f;
+    border-radius: 6px;
+    height: 80%;
+    width: 74%;
+}
+
+aside {
+    background-color: #136bad;
+    border-radius: 6px;
+    height: 80%;
+    width: 25%;
+}
