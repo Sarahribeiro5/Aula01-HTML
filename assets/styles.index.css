@@ -19,11 +19,11 @@ body {
 
 h2 {
     text-align: center;
-    color: #8c0d8c;
+    color: #ffffff;
 }
 
 header {
-    background-color: #973dca;
+    background-color: #e7337b;
     backdrop-filter: blur(10px);
     margin: 10px 0;
     border-radius: 6px;
@@ -35,7 +35,7 @@ header {
 }
 
 p {
-    color: #d44373;
+    color: #8d7ded;
 }
 
 #Principal {
@@ -47,21 +47,21 @@ p {
 }
 
 main {
-    background-color: #70198f;
+    background-color: #8d2dad;
     border-radius: 6px;
     height: 80%;
     width: 74%;
 }
 
 aside {
-    background-color: #13aaad;
+    background-color: #e782b8;
     border-radius: 6px;
     height: 80%;
     width: 25%;
 }
 
 footer {
-    background-color: #f3f3f3;
+    background-color: #e782b8;
     border-radius: 6px;
     margin: 10px 0;
     height: 100px;
@@ -69,4 +69,16 @@ footer {
     flex-direction: column;
     justify-content: center; /* vertical */
     align-items: center;
+}
+
+footer p {
+    font-size: 1 .2rem;
+    color: #fff;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    border-bottom: 1px solid #fff;
 }
