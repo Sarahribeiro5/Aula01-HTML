@@ -19,11 +19,11 @@ body {
 
 h2 {
     text-align: center;
-    color: #0a090a;
+    color: #8c0d8c;
 }
 
 header {
-    background-color: #be3181;
+    background-color: #973dca;
     backdrop-filter: blur(10px);
     margin: 10px 0;
     border-radius: 6px;
@@ -35,7 +35,7 @@ header {
 }
 
 p {
-    color: #040404;
+    color: #d44373;
 }
 
 #Principal {
@@ -54,8 +54,19 @@ main {
 }
 
 aside {
-    background-color: #136bad;
+    background-color: #13aaad;
     border-radius: 6px;
     height: 80%;
     width: 25%;
+}
+
+footer {
+    background-color: #f3f3f3;
+    border-radius: 6px;
+    margin: 10px 0;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* vertical */
+    align-items: center;
 }
